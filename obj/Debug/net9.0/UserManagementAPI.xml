@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserManagementAPI</name>
+    </assembly>
+    <members>
+        <member name="T:User">
+            <summary>Represents a user returned by the API.</summary>
+        </member>
+        <member name="M:User.#ctor(System.Int32,System.String,System.String,System.String)">
+            <summary>Represents a user returned by the API.</summary>
+        </member>
+        <member name="T:NewUser">
+            <summary>Values used to create or replace a user.</summary>
+        </member>
+        <member name="P:NewUser.Name">
+            <summary>The user's display name, up to 100 characters.</summary>
+        </member>
+        <member name="P:NewUser.Email">
+            <summary>The user's email address, unique across the collection regardless of case.</summary>
+        </member>
+        <member name="P:NewUser.Department">
+            <summary>The user's department, up to 50 characters.</summary>
+        </member>
+    </members>
+</doc>
